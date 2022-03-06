@@ -2,13 +2,74 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* background-color: rebeccapurple; */
+    justify-content: center;
+    align-items: center;
 }
 
 .cardContainer{
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
-    border-radius: 5px;
-    margin: 10px;
+    width: 20vw;
+    max-height: 360px;
+    border-radius: 10px;
+    margin: 10px 5px 10px 5px;
+}
+.topContainer{
+    display: flex;
+    flex-direction: row;
+    /* height: 70%; */
+}
+
+.imageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:30%;
+}
+.infoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+    max-height: 120px;  
+    padding: 20px 10px 20px 10px;
+}
+
+
+.bottomInfo
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.bottomInfo>h4
+{
+   font-size: 16px;
+   display:inline; 
+   margin: 0px;
+   padding: 0px;
+}
+.imageContainer>img{
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+
+
+}
+
+.btnDeleteProduct{
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px ;
+}
+
+.btnDeleteProduct:hover{
+    background-color: rgba(236, 97, 97, 0.644);
+}
+.icon{
+    color: red
 }

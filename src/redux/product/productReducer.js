@@ -1,9 +1,10 @@
 import { ADD_PRODUCT, REMOVE_PRODUCT } from "./productType";
 
 const initialState = {
-    qty: 100,
     productsList: [
-        { id: 'qwqasq', title: '', qty: 1 },
+        { title: 'Samsung Galaxy A2', qty: 10 },
+        { title: 'Nokia A2', qty: 12 },
+        { title: 'HP M1 Pro', qty: 1 },
 
     ],
 
