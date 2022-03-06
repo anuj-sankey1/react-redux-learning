@@ -27,7 +27,7 @@ const Product = () => {
             <div className="infoContainer">
 
               <div className="bottomInfo">
-                <h4>Product details</h4>
+                <h4>Product</h4>
                 <h4>{item.title}</h4>
                 <h4>Quantity:{item.qty}</h4>
               </div>

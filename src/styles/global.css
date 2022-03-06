@@ -17,3 +17,11 @@
     border: 0.5px solid rgba(128, 128, 128, 0.425);
     box-shadow: rgba(109, 109, 206, 0.13) 0px 13px 27px -5px, rgba(177, 169, 169, 0.082) 0px 8px 16px -8px;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .btnAddProduct, .btnDeleteProduct{
+        font-size: 1rem;
+    }
+  }
+
